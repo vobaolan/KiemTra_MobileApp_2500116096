@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">ThiCuoiKy_2500116096</string>
+    <string name="title_login">ĐĂNG NHẬP HỆ THỐNG</string>
+    <string name="hint_email">Địa chỉ Email</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="btn_login">ĐĂNG NHẬP</string>
+    <string name="err_empty_fields">Vui lòng điền đầy đủ Email và Mật khẩu</string>
+    <string name="err_invalid_email">Email không đúng định dạng</string>
+    <string name="err_short_password">Mật khẩu tối thiểu 6 ký tự</string>
+    <string name="login_success">Đăng nhập hợp lệ</string>
 </resources>
