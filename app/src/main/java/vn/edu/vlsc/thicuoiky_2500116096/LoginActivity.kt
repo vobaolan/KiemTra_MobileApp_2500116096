@@ -1,5 +1,6 @@
 package vn.edu.vlsc.thicuoiky_2500116096
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Patterns
 import android.widget.Button
@@ -70,6 +71,13 @@ class LoginActivity : AppCompatActivity() {
             else -> {
                 tvStatus.setTextColor(getColor(android.R.color.holo_green_dark))
                 tvStatus.text = getString(R.string.login_success)
+
+                // CÂU 2: Sử dụng Explicit Intent chuyển từ LoginActivity sang ProfileActivity
+                // Dùng putExtra truyền chuỗi Email sang ProfileActivity
+                val intent = Intent(this, ProfileActivity::class.java).apply {
+                    putExtra(ProfileActivity.EXTRA_EMAIL, email)
+                }
+                startActivity(intent)
             }
         }
     }

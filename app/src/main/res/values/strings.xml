@@ -8,4 +8,9 @@
     <string name="err_invalid_email">Email không đúng định dạng</string>
     <string name="err_short_password">Mật khẩu tối thiểu 6 ký tự</string>
     <string name="login_success">Đăng nhập hợp lệ</string>
+
+    <!-- ProfileActivity strings -->
+    <string name="title_profile">Hồ sơ cá nhân</string>
+    <string name="label_profile_email">Email: %1$s</string>
+    <string name="btn_logout">Đăng xuất</string>
 </resources>
